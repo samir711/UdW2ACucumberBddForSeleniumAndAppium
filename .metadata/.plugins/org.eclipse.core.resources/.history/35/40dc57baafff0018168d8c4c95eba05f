@@ -1,0 +1,34 @@
+import cucumber.api.PendingException;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class LoginStep {
+	
+	@Given("^user navigate to facebook website$")
+	public void user_navigate_to_facebook_website() throws Throwable {
+
+	}
+	@When("^user validate the homepage title$")
+	public void user_validate_the_homepage_title() throws Throwable {
+
+	}
+
+	@Then("^user enterred the username$")
+	public void user_enterred_the_username() throws Throwable {
+	  
+	}
+
+	@Then("^user entered the password$")
+	public void user_entered_the_password() throws Throwable {
+
+	}
+
+	@Then("^user should be successfully logged in$")
+	public void user_should_be_successfully_logged_in() throws Throwable {
+
+	}
+
+
+
+}

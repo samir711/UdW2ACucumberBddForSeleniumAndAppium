@@ -1,0 +1,7 @@
+Feature: Login
+
+In order to peform successful login
+As a user
+I want to enter correct username and password
+
+Scenario:

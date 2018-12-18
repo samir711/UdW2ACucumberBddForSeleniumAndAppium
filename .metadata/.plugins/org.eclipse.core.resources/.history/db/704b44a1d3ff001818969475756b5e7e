@@ -1,0 +1,21 @@
+Feature: Login
+
+In order to peform successful login
+As a user
+I want to enter correct username and password
+
+Scenario: In order to verify login to facebook
+        Given user navigate to facebook website
+        When user validate the homepage title
+        Then user entered valid username
+        And user entered valid password
+        Then user shouldbe successfully logged in 
+        
+        
+Scenario: In order to verify login to facebook as Invalid user
+		Given user navigate to facebook website
+		When user validate the homepage title
+		Then user enterred invalid username
+		And user entered invalid password
+		Then user should not successfully logged in
+
